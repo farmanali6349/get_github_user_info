@@ -1,50 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../images/js-logo.svg" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../images/js-logo.svg"
+      type="image/x-icon"
+    />
     <title>JavaScript</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="main-container">
-        <form>
-            <input type="text" placeholder="Enter Github Username">
-            <input type="submit" value="Send">
-            <span class="message">Username not found</span>
-        </form>
+      <header>
+        <h2 class="title">Github User Information</h2>
+      </header>
+      <form>
+        <input type="text" placeholder="Enter Github Username" />
+        <input type="submit" value="Send" />
+        <span class="message">Username not found</span>
+      </form>
 
-        <div class="card">
-            <div class="image">
-                <img src="" alt="userImage" class="user-image">
-            </div>
-            <h2 class="user-name">User Name</h2>
-            <h3 class="bio">User Bio</h3>
-            <div class="info">
-                <div class="repos">
-                    <span>Repositories</span>
-                    <span class="repo-count count">78</span>
-                </div>
-                <div class="followers">
-                    <span>Followers</span>
-                    <span class="followers-count count">56</span>
-                </div>
-                <div class="following">
-                    <span>Following</span>
-                    <span class="following-count count">78</span>
-                </div>
-            </div>
+      <div class="card">
+        <div class="image">
+          <img src="" alt="userImage" class="user-image" />
         </div>
+        <h2 class="user-name">User Name</h2>
+        <h3 class="bio">User Bio</h3>
+        <div class="info">
+          <div class="repos">
+            <span>Repositories</span>
+            <span class="repo-count count">78</span>
+          </div>
+          <div class="followers">
+            <span>Followers</span>
+            <span class="followers-count count">56</span>
+          </div>
+          <div class="following">
+            <span>Following</span>
+            <span class="following-count count">78</span>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
-
-</body>
-
+  </body>
 </html>
